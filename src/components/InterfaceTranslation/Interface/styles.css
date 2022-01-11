@@ -1,0 +1,22 @@
+.interfaceSelection .selectDiv {
+  margin-left: 20px;
+  font-size: 1rem;
+}
+
+.interfaceSelection .selectDiv label {
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.interfaceSelection .selectDiv select {
+  font-size: 18px;
+  padding: 5px;
+  width: 400px;
+  box-shadow: 0px 0px 4px 0px inset;
+  border-radius: 5px;
+}
+
+.interfaceSelection {
+  background-color: #e0f2ff;
+  border-radius: 5px;
+}

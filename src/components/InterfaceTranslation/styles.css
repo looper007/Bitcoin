@@ -1,0 +1,83 @@
+.gisInterfaceTranslationWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 4px solid #fff;
+}
+
+body {
+  padding: 5px;
+}
+
+hr {
+  border-bottom: 1px solid #403d3da8;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 2px;
+  margin-bottom: 5px;
+}
+.panels {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+Table {
+  width: 100%;
+  background: #fff;
+  margin: 1em 0;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0.28571429rem;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+Table tr th {
+  cursor: auto;
+  background: #f9fafb;
+  text-align: inherit;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0.92857143em 0.78571429em;
+  vertical-align: inherit;
+  font-style: none;
+  font-weight: 700;
+  text-transform: none;
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
+  padding: 0.78571429em 0.78571429em;
+  font-size: 1em;
+}
+
+Table tr td {
+  border-bottom: 1px solid rgba(34, 36, 38, 0.1);
+  border-left: 1px solid rgba(34, 36, 38, 0.1);
+  padding: 0.78571429em 0.78571429em;
+  font-size: 1em;
+}
+
+thead tr > th:first-child,
+tbody tr > td:first-child {
+  border-left: none;
+}
+
+tbody tr:last-child > td {
+  border-bottom: none;
+}
+Table td {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+Table tbody tr:hover td {
+  background-color: rgb(22, 181, 230);
+  color: #fff;
+}
